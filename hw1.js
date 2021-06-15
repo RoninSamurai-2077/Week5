@@ -33,3 +33,6 @@ var lorem = text.slice(1, 3);
 var chores1 = ["clean, pay bills, groceries"];
 //15) Create a new variable named "chores2" set it to the string "learn JS, doctors office, pick up kids"
 var chores2 =["learn JS, doctors office, pick up kids"];
+//NOTE: There are many ways to accomplish step 16, there is no wrong answer if you get the right result EXCEPT for var allChores = ["clean", " pay bills", " groceries", "learn JS", " doctors office", " pick up kids"] is wrong for obvious reasons
+//16) Create a new variable named "allChores" it should be an array of all the chores form "chores1" and "chores2" OUTPUT: ["clean", " pay bills", " groceries", "learn JS", " doctors office", " pick up kids"] HINT: split and concatenation
+var allChores = chores1 + ", " + chores2;
