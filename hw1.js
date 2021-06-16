@@ -23,9 +23,9 @@ food.splice(2,2, "brussels sprouts");
 //10) Create a variable "text" and set it to the string "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
 var text = "Lorem, ipsum dolor sit amet consectetur adipisicing elit.";
 //11) Using [ ] notation console.log( ) the "," from the text variable
-console.log([,]);
+console.log(Text[5]);
 //12) Using [ ] notation console.log( ) the the last character (".") from the text variable
-console.log([.]);
+console.log(Text[56]);
 //13) Create a new variable named "lorem" assign it the value of "Lorem" by slicing it from the text variable
 //DO NOT: var lorem = "Lorem"; DO: var lorem = text.slice(?, ?);
 var lorem = text.slice(1, 3);
