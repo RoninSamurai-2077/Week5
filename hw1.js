@@ -13,9 +13,9 @@ food.shift();
 fruits.push("broccoli");
 console.log(food)
 //6) Using the slice method create a new array named "veggies" it should have all the veggies from "food" as elements of the "veggies" array. HINT: veggies is the first half of food array OUTPUT: veggies = ["broccoli", "carrots", "kale", "spinach", "onion"]
-var veggies = console.log(food.slice(0,6));
+var veggies = food.slice(0,5);
 //7) Using the slice method create a new array named "fruit" it should have all the fruits from "food" as elements of the array "fruits" array. HINT: fruits is the seconds half of the food array OUTPUT: fruit = ["apples", "bananas", "grapes", "strawberries"]
-var fruit = console.log(food);
+var fruit = food.slice(0,4);
 //8) Using the splice method remove "onion" from the "food" array
 food.splice(4,1,);
 //9) Using the splice method remove "kale" & "spinach" from the "food" array and replace it with "brussels sprouts" OUTPUT: food = ["broccoli", "carrots", "brussels sprouts", "apples", "bananas", "grapes", "strawberries"]
