@@ -24,7 +24,7 @@ if (distance < 0) {
     document.getElementById("Timer").innerHTML = "EXPIRED";
   }
 }, 1000);
-//4) test test test test.ff
+//4) test test test test.
 
 //5) optional: style it.
 
